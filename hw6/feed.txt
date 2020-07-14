@@ -1,0 +1,6 @@
+// 7.5
+- http://joxi.ru/V2VOEEOcK1EyQA надо чтобы блоки тянулись по содержимому
+- http://joxi.ru/krDMGGMhJ1Mabm бургер должен появляться на разрешении меньше 768px
+- http://joxi.ru/Drl0RR0C0MbNPr основной контен должен быть сверху
+- http://joxi.ru/l2ZkEEkUE6D4DA ненадо чтобы меню растягивало header
+- http://joxi.ru/E2pqXXqfadOZpA контент не тянется, и footer должен быть последним

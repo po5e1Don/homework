@@ -1,0 +1,6 @@
+// 9
+- box-sizing - где он?
+- https://recordit.co/EEQankuoEv с меню чтото не то
+- http://joxi.ru/Q2KQGGQCwnNWxr убирай пустые строки
+- http://joxi.ru/a2XXEEXiDENLp2 подумай, как можно сократить эту запись
+- http://joxi.ru/YmEMGGMhJdg67m пиши одинаково, или с отступами или без

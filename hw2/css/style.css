@@ -1,0 +1,49 @@
+blockquote {
+  color: green;
+}
+
+a[href^="https"] {
+  color: red;
+}
+
+ul + p {
+  font-size: 26px;
+}
+
+ul.list > li:last-child {
+  background-color: blue;
+}
+
+.text-box h3:first-child {
+  color: pink;
+}
+
+#greycol {
+  color: gray;
+}
+
+.text-box div p {
+  color: red;
+}
+
+.text-box p:nth-last-of-type(2) {
+  color: green;
+}
+
+.yellow {
+  color: yellow;
+}
+
+div.bg-box {
+  background-color: green;
+}
+
+.bg-box {
+  height: 500px;
+  width: 100%;
+  background: url(../img/lamp.png) repeat-x top / 30px,
+    url(../img/trava.png) repeat-x bottom / 200px,
+    url(../img/don.png) content-box repeat-y right / 30px,
+    url(../img/ezh.png) repeat-y left / 30px,
+    url(../img/dom.jpg) no-repeat center / 450px;
+}

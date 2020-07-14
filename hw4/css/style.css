@@ -1,0 +1,197 @@
+.greenbox {
+  width: 600px;
+  height: 500px;
+  background-color: #0d5825;
+}
+
+.citation {
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.cards {
+  display: inline-block;
+  position: absolute;
+  left: 225px;
+  top: 150px;
+}
+
+.cards > img {
+  position: absolute;
+  width: 150px;
+}
+
+.card1 {
+  transform: translateX(-40px) translateY(-10px) rotate(-15deg);
+}
+
+.card2 {
+  transform: translateX(0px) translateY(-5px) rotate(0deg);
+}
+
+.card3 {
+  transform: translateX(40px) translateY(10px) rotate(15deg);
+}
+
+.card1:hover {
+  transition: linear 0.3s;
+  transform: translateX(-40px) translateY(-25px) rotate(-15deg);
+}
+
+.card2:hover {
+  transition: linear 0.3s;
+  transform: translateX(0px) translateY(-15px) rotate(0deg);
+}
+
+.card3:hover {
+  transition: linear 0.3s;
+  transform: translateX(40px) translateY(-25px) rotate(15deg);
+}
+
+.whitespace {
+  width: 600px;
+  height: 400px;
+  position: relative;
+}
+
+.red_box {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.blue_box {
+  position: absolute;
+  top: 150px;
+  left: 250px;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  z-index: 1;
+}
+
+.green_box {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+.move_area {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background-color: wheat;
+}
+
+.box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: moving_box;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes moving_box {
+  0% {
+    top: 0;
+    left: 0;
+    background-color: red;
+  }
+  25% {
+    top: 500px;
+    left: 0;
+    background-color: blue;
+  }
+  50% {
+    top: 500px;
+    left: 500px;
+    background-color: green;
+  }
+  75% {
+    top: 0;
+    left: 500px;
+    background-color: yellow;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    background-color: red;
+  }
+}
+
+.hold_menu {
+  display: inline-block;
+  width: 200px;
+  height: 500px;
+  background-color: grey;
+  transform: translate(-999px);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 50px;
+}
+
+li {
+  padding: 15px;
+  list-style: none;
+}
+
+li > a {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+li > a:hover {
+  color: #ffa600;
+  transition: linear 0.3s;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.romb {
+  display: inline-block;
+  margin-right: 5px;
+  width: 7px;
+  height: 7px;
+  background-color: #ffa600;
+  border: 1px solid #000000;
+  transform: rotate(45deg);
+}
+
+.sidebar {
+  position: absolute;
+  width: 30px;
+  height: 500px;
+  background-color: grey;
+}
+
+.sidebar:hover ~ .hold_menu {
+  transition: ease-in-out 0.8s 0s;
+  transform: translate(0);
+}
+
+.sidebar > span {
+  cursor: default;
+  writing-mode: vertical-rl;
+  position: absolute;
+  top: 250px;
+  left: 6px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
